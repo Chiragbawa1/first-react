@@ -1,0 +1,69 @@
+.inner-banner{
+ background-image: url("../public/slider-bg.jpg");
+ background-repeat: no-repeat;
+ background-size: cover;
+ height: 100vh;
+}
+.inner-banner h1{
+  font-size: 6rem;
+}
+ul li{
+  padding: 0px 25px !important;
+}
+
+.inner-about h1{
+  font-size: 3.5rem;
+}
+.inner-about p{
+word-spacing: 10px;
+font-size: 1.1rem;
+line-height: 30px;
+margin-top: 10px;
+}
+.inner-gallery{
+  background-color: rgb(117, 117, 158);
+  height: auto;
+}
+.inner-gallery .box{
+  box-shadow: white 2px 2px 2px 2px;
+  height:35vh;
+  width: 100%;
+  background-color: white;
+  border-radius: 20px;
+  
+}
+.inner-gallery .box img{
+  margin: auto !important;
+  display: block !important;
+  height: 14vh;
+}
+.inner-gallery input{
+  margin: auto;
+  display: block;
+  margin-top: 3px;
+  width: 10%;
+  border: solid black 1px;
+}
+.input button{
+  background-color: transparent;
+  color: white;
+  border: wheat 1px solid;
+  margin-left: 7px;
+}
+.offer h1{
+  font-size: 3.5rem;
+}
+@media(max-width:1200px)
+{
+  .inner-gallery img{
+    max-width: 100%;
+  }
+  .inner-about img{
+    max-width: 100%;
+  }
+}
+@media(max-width:768px)
+{
+ 
+ 
+}

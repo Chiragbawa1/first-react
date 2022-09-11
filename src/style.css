@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+.navbar{
+    background-color: black !important;
+}
+.navbar img{
+    height: 50px;
+}
+.navbar ul li{
+    padding: 0px 20px;
+    font-size: 22px !important;
+
+}
+.inner-banner{
+    background-image: url("../public/hero-bg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-size: cover;
+}
+.inner-banner h2{
+    font-size: 4rem;
+}
+.inner-banner h1{
+    font-size: 5rem;
+}
+.inner-banner .btn a{
+    background-color: rgb(32, 32, 104);
+    border:rgb(32, 32, 104) !important ;
+}
+.inner-about p{
+    font-weight: 500;
+    line-height: 50px;
+    word-spacing: 10px;
+    font-size: 20px;
+}
+.inner-about img{
+    height: 70vh;
+}
+.inner-about .btn1 a{
+    background-color: rgb(32, 32, 104);
+}
+.inner-gallery img{
+    height: 40vh;
+}
+.inner-gallery .borders {
+    width: 32    0px;
+    height: 400px;
+}
+.footer{
+    background-color: rgb(32, 32, 104);
+}
+.footer button{
+    background-color: transparent;
+    color: white;
+    border: white 1px solid;
+}
+.main-footer {
+    background-color: rgb(32, 32, 104);
+
+}
